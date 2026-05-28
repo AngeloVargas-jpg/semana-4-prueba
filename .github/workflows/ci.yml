@@ -41,7 +41,7 @@ jobs:
 
       # 7. Tests — corre los tests
       - name: Tests
-        run: pnpm test --run
+        run: pnpm vitest run
 
       # 8. Build — verifica que compila sin errores
       - name: Build
