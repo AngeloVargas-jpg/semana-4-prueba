@@ -2,7 +2,7 @@
 FROM node:20-alpine AS builder
 
 # Instala pnpm globalmente
-RUN npm install -g pnpm@8
+RUN npm install -g pnpm@10
 
 WORKDIR /app
 
